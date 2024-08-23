@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets';
-
+import Title from './Title';
+import { events } from '../assets/assets';
 
 
 const Home = () => {
@@ -27,6 +28,8 @@ const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+<Title  text1={"Our"} text2={"events"}/>
+
     </div>
   )
 }
