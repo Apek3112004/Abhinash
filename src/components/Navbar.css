@@ -1,0 +1,19 @@
+a:hover{
+    hr{
+      display: block;
+    }
+  }
+  
+  a.active hr{
+    background-color: rgb(179, 71, 89);
+    display: block;
+    height:2px;
+  }
+  
+  
+  @media(max-width:640px){
+    a.active{
+      background-color: black;
+      color:white;
+    }
+  }
